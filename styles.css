@@ -1,0 +1,71 @@
+body {
+    background: #be72ae; 
+    color: whitesmoke; 
+    font-family: "Great Vibes", cursive;
+    margin: 0px;
+    margin-bottom: 200px;
+}
+
+header {
+    border-bottom: solid 2px #F0A6CA; 
+    font-size: 50px;
+    color: #fcddeb; 
+}
+
+.chamada {
+    background: #F9C1D9; 
+    padding-bottom: 50px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.chamada-texto {
+    margin-right: 15%;
+}
+
+
+h1 {
+    font-size: 55px;
+    color: #F07D91; 
+}
+
+
+p {
+    font-size: 30px;
+    color: #f17eb2; 
+}
+
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+}
+
+.categoria {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.categoria-videos img {
+    opacity: 0.3; 
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1;
+    border: 5px solid #F07D91; 
+}
+
+
+.categoria h2 {
+    color: #ffc0db; 
+}
+
+.categoria {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 50px;
+}
